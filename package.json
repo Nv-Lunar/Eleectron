@@ -22,7 +22,7 @@
     "electron-reload": "^2.0.0-alpha.1",
     "electron-squirrel-startup": "^1.0.0",
     "path": "^0.12.7",
-    "sweetalert2": "^11.7.31"
+    "sweetalert2": "^11.7.32"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.4.2",
@@ -43,13 +43,6 @@
     "productName": "ApiElectron",
     "compression": "maximum",
     "copyright": "Copyright © 2023 Alsav System",
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "SattyaP",
-        "repo": "cashier-app"
-      }
-    ],
     "win": {
       "target": [
         "nsis"
